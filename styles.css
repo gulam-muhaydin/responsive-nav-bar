@@ -1,0 +1,273 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+    background: white;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+.Bar {
+    height: 5px;
+    width: 100%;
+    background: black;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-7px);
+}
+
+#bar3 {
+    transform: translateY(7px);
+}
+
+.nav {
+    padding: 0;
+    margin: 0 200px;
+    transition: 1s ease;
+    display: none;
+}
+
+.nav li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background: white;
+    padding: 10px 30px;
+    transition: 0.60s;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.icon .Bar {
+    background: #fff;
+}
+
+.icon #bar1 {
+    transform: translateY(12px) rotate(-45deg);
+}
+
+.icon #bar3 {
+    transform: translateY(2px) rotate(45deg);
+}
+
+.icon #bar2 {
+    opacity: 0;
+}
+
+.change {
+    background: black;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 426px) and (max-width: 768px){
+  
+    * {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body { 
+    background: #f4f0bb;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.Bar {
+    height: 5px;
+    width: 100%;
+    background: #43291f;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-6px);
+}
+
+#bar3 {
+    transform: translateY(6px);
+}
+
+.nav {
+    padding: 0;
+    margin: 0 200px;
+    transition: 1s ease;
+    display: none;
+}
+
+.nav li {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav li a:hover {
+    background: #f4f0bb;
+    padding: 10px 20px;
+    transition: 0.60s;
+    border-radius: 10px;
+    color: #43291f;
+    font-weight: bold;
+}
+
+.icon .Bar {
+    background: #f4f0bb;
+}
+
+.icon #bar1 {
+    transform: translateY(12px) rotate(-45deg);
+}
+
+.icon #bar3 {
+    transform: translateY(2px) rotate(45deg);
+}
+
+.icon #bar2 {
+    opacity: 0;
+}
+
+.change {
+    background: #43291f;
+    height: 100vh;
+    padding: 0 70px;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (min-width: 320px) and (max-width: 425px){
+    * {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+    background: #ffd500;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+.Bar {
+    height: 5px;
+    width: 100%;
+    background: #fff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    background-color: #00509d;
+}
+
+#bar1 {
+    transform: translateY(-6px);
+}
+
+#bar3 {
+    transform: translateY(6px);
+}
+
+.nav {
+    padding: 0 70px;
+    margin: 0 200px;
+    transition: 1s ease;
+    display: none;
+}
+
+.nav li {
+    list-style: none;
+    padding: 36px 0;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background: #ffd500;
+    padding: 10px 30px;
+    transition: 0.60s;
+    border-radius: 10px;
+    color: #00509d;
+    font-weight: bold;
+}
+
+.icon .Bar {
+    background: #ffd500;
+}
+
+.icon #bar1 {
+    transform: translateY(12px) rotate(-45deg);
+}
+
+.icon #bar3 {
+    transform: translateY(2px) rotate(45deg);
+}
+
+.icon #bar2 {
+    opacity: 0;
+}
+
+.change {
+    background: #00509d;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
